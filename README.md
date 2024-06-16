@@ -14,13 +14,9 @@ Hi there! I'm Nerijus, and I'm on a journey to learn Python. This repository is 
 
 ## Highlighted Projects
 
-### Personal Portfolio Website
-- **Description:** This project showcases a personal portfolio website where I can display my projects, skills, and contact information. It is built using Flask and includes a responsive design.
-- **Skills Highlighted:** Flask, HTML/CSS, responsive design.
-
-### Blog Platform
-- **Description:** A more advanced project demonstrating a full-featured blog platform. Users can register, log in, create posts, and comment on them. This project highlights my progress in web development with more complex functionality and database integration.
-- **Skills Highlighted:** Flask, SQLAlchemy, user authentication, CRUD operations.
+### [Habit Tracking](https://github.com/nerkyzas157/Web-Development/tree/main/Habit_Tracking)
+- **Description:** This project interacts with the Pixela API to track daily beer consumption. It automates the creation of a user account, graph, and pixels representing the amount of beer consumed each day. The script sends HTTP requests to create and manage the graph, including setting the time zone and deleting test data. The results can be viewed on a web interface provided by Pixela. Future improvements include creating a GUI application for easier pixel (data point) creation.
+- **Skills Highlighted:** This project highlights skills in API integration, HTTP requests handling using the Requests library in Python, working with JSON data, and automating repetitive tasks. Additionally, it demonstrates the ability to manage authentication and authorization using headers, and perform CRUD (Create, Read, Update, Delete) operations with a web service.
 
 ## Contributing
 
