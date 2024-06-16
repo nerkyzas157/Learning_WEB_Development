@@ -15,8 +15,9 @@ Hi there! I'm Nerijus, and I'm on a journey to learn Python. This repository is 
 ## Highlighted Projects
 
 ### [Habit Tracking](https://github.com/nerkyzas157/Web-Development/tree/main/Habit_Tracking)
-- **Description:** This project interacts with the Pixela API to track daily beer consumption. It automates the creation of a user account, graph, and pixels representing the amount of beer consumed each day. The script sends HTTP requests to create and manage the graph, including setting the time zone and deleting test data. The results can be viewed on a web interface provided by Pixela. Future improvements include creating a GUI application for easier pixel (data point) creation.
+- **Description:** This project interacts with the Pixela API to track daily beer consumption. It automates the creation of a user account, graph, and pixels representing the amount of beer consumed each day. The script sends HTTP requests to create and manage the graph, including setting the time zone and deleting test data. The results can be viewed on a [web interface provided by Pixela](https://pixe.la//v1/users/nerkyzas157/graphs/beergraph1.html). 
 - **Skills Highlighted:** This project highlights skills in API integration, HTTP requests handling using the Requests library in Python, working with JSON data, and automating repetitive tasks. Additionally, it demonstrates the ability to manage authentication and authorization using headers, and perform CRUD (Create, Read, Update, Delete) operations with a web service.
+- **TODO:** Create a GUI application for creating new pixels to make it easier for users to log their daily habits without manually sending HTTP requests.
 
 ## Contributing
 
