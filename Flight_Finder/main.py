@@ -16,7 +16,7 @@ for i in sheet_data:
         iata = flight_search.get_iata(i["city"])
         db.put_iata(iata=iata, row=i["id"])
     # Find cheapest flight to that city
-    flight_data = flight_search.find_cheapest_flight(i["iataCode"], 400, adults=1, non_stop="true")
+    flight_data = flight_search.find_cheapest_flight(i["iataCode"], i["lowestPrice"], adults=1, non_stop="true")
     # If no cheap flights were found, continue with the loop
     if flight_data == False:
         print(f"No cheap flight were found for {i["city"]}.")
@@ -26,6 +26,3 @@ for i in sheet_data:
         email_list = db.get_emails()
         for n in email_list:
             connect.send_email(email=n["email"], email_text=f_data.msg_body(flight_data))
-
-
-# i["lowestPrice"]
