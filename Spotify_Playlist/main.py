@@ -30,7 +30,7 @@ sp = spotipy.oauth2.SpotifyOAuth(
     client_id=spotify_client_id,
     client_secret=spotify_client_secret,
     redirect_uri="http://example.com",
-    cache_path="Day_46_Spotify\\Spotify_Playlist\\token.json",
+    cache_path="Spotify_Playlist\\token.json",
     scope="playlist-modify-public",
 )
 
@@ -67,5 +67,5 @@ client.user_playlist_add_tracks(
     user=user_id, playlist_id=playlist_id, tracks=spotify_songs, position=None
 )
 
-# TODO: Implement Google Forms, for users to enter their preferred date and email
-# TODO: Implement SMTP, to notify users with their new Spotify playlist
+# TODO: Implement Google Forms, for users to enter their preferred dates and emails
+# TODO: Implement SMTP, to notify users with their new Spotify playlists
