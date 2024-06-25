@@ -24,7 +24,7 @@ my_email = config["SMTP_EMAIL"]
 app_password = config["SMTP_APP_PASS"]
 
 # Check price, if satisfied, notify user
-if price > 400:
+if price < 400:
     connection = smtplib.SMTP("smtp.gmail.com", port=587)
     connection.starttls()
     connection.login(user=my_email, password=app_password)
