@@ -67,5 +67,5 @@ client.user_playlist_add_tracks(
     user=user_id, playlist_id=playlist_id, tracks=spotify_songs, position=None
 )
 
-# TODO: Implement Google Forms, for users to enter their preferred dates and emails
+# TODO: Implement Google Forms with Sheety API, for users to enter their preferred dates and emails
 # TODO: Implement SMTP, to notify users with their new Spotify playlists
