@@ -14,10 +14,9 @@ Hi there! I'm Nerijus, and I'm on a journey to learn Python. This repository is 
 
 ## Highlighted Projects
 
-### [Habit Tracking](https://github.com/nerkyzas157/Web-Development/tree/main/Habit_Tracking)
-- **Description:** This project interacts with the Pixela API to track daily beer consumption. It automates the creation of a user account, graph, and pixels representing the amount of beer consumed each day. The script sends HTTP requests to create and manage the graph, including setting the time zone and deleting test data. The results can be viewed on a [web interface provided by Pixela](https://pixe.la//v1/users/nerkyzas157/graphs/beergraph1.html). 
-- **Skills Highlighted:** This project highlights skills in API integration, HTTP requests handling using the Requests library in Python, working with JSON data, and automating repetitive tasks. Additionally, it demonstrates the ability to manage authentication and authorization using headers, and perform CRUD (Create, Read, Update, Delete) operations with a web service.
-- **TODO:** Create a WEB application for creating new pixels to make it easier for users to log their daily habits without manually sending HTTP requests.
+### [Cookie Clicker Bot](https://github.com/nerkyzas157/WEB_Development/tree/main/Cookie_Clicker_Bot)
+- **Description:** This project automates interactions with the Cookie Clicker game using the Selenium WebDriver. The automation script continuously clicks the main cookie to accumulate points and periodically purchases upgrades to increase the click rate. Feel free to locally add more stages or remove the timer.
+- **Skills Highlighted:** This project demonstrates proficiency in web automation using Selenium, including browser control, element interaction, and dynamic data extraction. It showcases skills in creating automation scripts, handling web elements by various selectors (ID, CSS), implementing loops for continuous operation, and conditionally performing actions based on real-time data. Additionally, it highlights effective use of time-based operations to manage periodic checks and updates.
 
 ### [HTML](https://github.com/nerkyzas157/WEB_Development/tree/main/HTML_Intro) and [CSS](https://github.com/nerkyzas157/WEB_Development/tree/main/CSS_Intro) Introduction
 - **Description:** These projects showcase fundamental HTML and CSS skills through simple web page creation. They include a birthday invitation, movie ranking, Spanish vocabulary learning, and meme pages, demonstrating basic HTML elements and CSS styling.
