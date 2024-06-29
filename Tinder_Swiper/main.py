@@ -83,22 +83,18 @@ notifications = driver.find_element(
 )
 notifications.click()
 
-time.sleep(2)
-
+time.sleep(5)
+n = 3
 # Created a for loop to like the day's limit
 for i in range(LIKE_LIMIT):
     try:
         like = driver.find_element(
             By.XPATH,
-            value='//*[@id="u-1419960890"]/div/div[1]/div/div/main/div/div/div[1]/div/div[3]/div/div[4]/button',
+            value=f'//*[@id="u-1419960890"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[{n}]/div/div[4]/button',
         )
         like.click()
+        n = 3
         time.sleep(2)
-
     except NoSuchElementException:
-        pop_up = driver.find_element(
-            By.XPATH, value='//*[@id="u1146625330"]/div/div/div[3]/button'
-        )
-        pop_up.click()
-        time.sleep(2)
+        n = 4
         continue
