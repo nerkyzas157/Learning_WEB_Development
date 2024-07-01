@@ -15,7 +15,7 @@ Hi there! I'm Nerijus, and I'm on a journey to learn Python. This repository is 
 ## Highlighted Projects
 
 ### [Cookie Clicker Bot](https://github.com/nerkyzas157/WEB_Development/tree/main/Cookie_Clicker_Bot)
-- **Description:** This project automates interactions with the Cookie Clicker game using the Selenium WebDriver. The automation script continuously clicks the main cookie to accumulate points and periodically purchases upgrades to increase the click rate. Feel free to locally add more stages or remove the timer.
+- **Description:** This project automates interactions with the Cookie Clicker game using the Selenium WebDriver. The automation script continuously clicks the main cookie to accumulate points and periodically purchases upgrades to increase the click rate. Feel free to locally add more stages or remove the timer. You can check final result [HERE](https://docs.google.com/spreadsheets/d/1Yr4X-fDjTSdQT6Zcdl159VIpZCxKr2jSnOU3Kwyi00g/edit?usp=sharing).
 - **Skills Highlighted:** This project demonstrates proficiency in web automation using Selenium, including browser control, element interaction, and dynamic data extraction. It showcases skills in creating automation scripts, handling web elements by various selectors (ID, CSS), implementing loops for continuous operation, and conditionally performing actions based on real-time data. Additionally, it highlights effective use of time-based operations to manage periodic checks and updates.
 
 ### [Data Entry Automation](https://github.com/nerkyzas157/WEB_Development/tree/main/Data_Entry_Automation)
