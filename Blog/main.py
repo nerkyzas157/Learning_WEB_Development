@@ -23,5 +23,3 @@ def get_blog(num):
 
 if __name__ == "__main__":
     app.run()
-
-# TODO: Add proper styling and more functionality
