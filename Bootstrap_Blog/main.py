@@ -1,7 +1,12 @@
-from flask import Flask, render_template  # type: ignore
+from flask import Flask, render_template, request  # type: ignore
+import smtplib
 import requests  # type: ignore
 
-posts = requests.get("https://api.npoint.io/c790b4d5cab58020d391").json()
+posts = requests.get("https://api.npoint.io/b5fa54745e3278aea335").json()
+
+# You can set your constant variables for email and password right here:
+SMTP_EMAIL = ""
+APP_PASSWORD = ""
 
 app = Flask(__name__)
 
@@ -16,9 +21,21 @@ def about():
     return render_template("about.html")
 
 
-@app.route("/contact")
+@app.route("/contact", methods=["GET", "POST"])
 def contact():
-    return render_template("contact.html")
+    if request.method == "POST":
+        data = request.form
+        send_email(data["name"], data["email"], data["phone"], data["message"])
+        return render_template("contact.html", msg_sent=True)
+    return render_template("contact.html", msg_sent=False)
+
+
+def send_email(name, email, phone, message):
+    email_message = f"Subject:New Message\n\nName: {name}\nEmail: {email}\nPhone: {phone}\nMessage:{message}"
+    with smtplib.SMTP("smtp.gmail.com") as connection:
+        connection.starttls()
+        connection.login(SMTP_EMAIL, APP_PASSWORD)
+        connection.sendmail(SMTP_EMAIL, SMTP_EMAIL, email_message)
 
 
 @app.route("/post/<int:index>")
@@ -33,4 +50,3 @@ def show_post(index):
 if __name__ == "__main__":
     app.run(debug=True, port=5001)
 
-# TODO: Implement SB Forms Contact Form
