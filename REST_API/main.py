@@ -8,7 +8,6 @@ from dataclasses import dataclass
 """
 
 View API documentation here: https://documenter.getpostman.com/view/37174670/2sA3kVn2LU
-or render documentation template.
 
 """
 
@@ -57,11 +56,6 @@ class Cafe(db.Model):
 with app.app_context():
     db.create_all()
     print(db.session.execute(func.max(Cafe.id)).scalar())
-
-
-@app.route("/documentation")
-def documentation():
-    return render_template("documentation.html")
 
 
 # HTTP GET - Read Record
