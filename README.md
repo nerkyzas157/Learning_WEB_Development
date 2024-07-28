@@ -14,6 +14,10 @@ Hi there! I'm Nerijus, and I'm on a journey to learn Python. This repository is 
 
 ## Highlighted Projects
 
+### [Blog Website]([https://github.com/nerkyzas157/WEB_Development/tree/main/REST_API](https://github.com/nerkyzas157/Learning_WEB_Development/tree/main/Bootstrap_Blog))
+- **Description:** This project involves building a fully-functional blog application using the Flask web framework. The application allows users to register, log in, and interact with blog posts by reading, creating, editing, deleting, and commenting on them. User authentication is managed using Flask-Login, ensuring secure access to the site's features. Administrators have exclusive rights to create, edit, and delete posts, while all authenticated users can comment on existing posts.
+- **Skills Highlighted:** Flask web development, SQLAlchemy ORM (Object-Relational Mapping), User authentication and role management with Flask-Login, Form handling with Flask-WTF, Rich text editing integration with Flask-CKEditor, Responsive design with Bootstrap, Email sending with smtplib, Securing sensitive information, Template rendering with Flask, Managing relationships between database models, Access control with custom decorators, CSS and HTML for web design, Database management with tables.
+
 ### [REST API](https://github.com/nerkyzas157/WEB_Development/tree/main/REST_API)
 - **Description:** This project is a RESTful API built using Flask and SQLAlchemy to manage a database of cafes. The API provides endpoints to perform CRUD (Create, Read, Update, Delete) operations on the cafe database, allowing users to add new cafes, retrieve information about cafes, update cafe details, and delete cafes. It includes features for random cafe selection, searching cafes by location, and updating cafe prices.
 - **Skills Highlighted:** This project demonstrates proficiency in building RESTful APIs with Flask, ORM (Object-Relational Mapping) using SQLAlchemy, database management, HTTP methods (GET, POST, PUT, PATCH, DELETE), and error handling. It also showcases skills in template rendering with Flask, handling request parameters, and securing endpoints with API keys.
