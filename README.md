@@ -14,7 +14,7 @@ Hi there! I'm Nerijus, and I'm on a journey to learn Python. This repository is 
 
 ## Highlighted Projects
 
-### [Blog Website]([https://github.com/nerkyzas157/WEB_Development/tree/main/REST_API](https://github.com/nerkyzas157/Learning_WEB_Development/tree/main/Bootstrap_Blog))
+### [Blog Website]([https://github.com/nerkyzas157/WEB_Development/tree/main/REST_API](https://github.com/nerkyzas157/Learning_WEB_Development/tree/main/Bootstrap_Blog)
 - **Description:** This project involves building a fully-functional blog application using the Flask web framework. The application allows users to register, log in, and interact with blog posts by reading, creating, editing, deleting, and commenting on them. User authentication is managed using Flask-Login, ensuring secure access to the site's features. Administrators have exclusive rights to create, edit, and delete posts, while all authenticated users can comment on existing posts.
 - **Skills Highlighted:** Flask web development, SQLAlchemy ORM (Object-Relational Mapping), User authentication and role management with Flask-Login, Form handling with Flask-WTF, Rich text editing integration with Flask-CKEditor, Responsive design with Bootstrap, Email sending with smtplib, Securing sensitive information, Template rendering with Flask, Managing relationships between database models, Access control with custom decorators, CSS and HTML for web design, Database management with tables.
 
